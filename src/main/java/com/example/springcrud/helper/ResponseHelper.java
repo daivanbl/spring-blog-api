@@ -19,7 +19,7 @@ public class ResponseHelper {
     }
 
     public static ResponseEntity<Object> generateErrorResponse(String message, HttpStatusCode httpStatusCode) {
-        
+        "Another commit"
         Map<String, Object> response = new HashMap<>();
         response.put("message", message);
         response.put("httpStatus", httpStatusCode);
